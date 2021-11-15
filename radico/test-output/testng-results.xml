@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[logintitle is Displayed, PASS]]>
+    </line>
+    <line>
+      <![CDATA[hometitle  is Displayed, PASS]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="51015" started-at="2021-11-15T15:43:30 IST" finished-at="2021-11-15T15:44:21 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="51015" started-at="2021-11-15T15:43:30 IST" finished-at="2021-11-15T15:44:21 IST">
+      <class name="com.radico.contact.ContactRunningPage">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.radico.contact.ContactRunningPage@569cfc36]" name="openBrowser" is-config="true" duration-ms="16920" started-at="2021-11-15T15:43:30 IST" finished-at="2021-11-15T15:43:47 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[logintitle is Displayed, PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="ContactPage()[pri:0, instance:com.radico.contact.ContactRunningPage@569cfc36]" name="ContactPage" duration-ms="34004" started-at="2021-11-15T15:43:47 IST" finished-at="2021-11-15T15:44:21 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[hometitle  is Displayed, PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ContactPage -->
+      </class> <!-- com.radico.contact.ContactRunningPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
