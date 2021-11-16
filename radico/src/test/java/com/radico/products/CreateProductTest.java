@@ -13,7 +13,6 @@ public class CreateProductTest {
 		
 		Reporter.log("product created successfully", true);
 		
-		
 	}  
 	
 
